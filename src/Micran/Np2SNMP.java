@@ -14,10 +14,6 @@ public class Np2SNMP {
 	 * @throws IOException 
 	 */
 	public static void main(String[] args) throws IOException, InterruptedException  {
-		// TODO Auto-generated method stub
-		BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
-		
-		
 		System.out.println("¬ведите IP-адрес устройства NP2SNMP");
 		
 		//String addres =  "udp:" + input.readLine() + "/161";
