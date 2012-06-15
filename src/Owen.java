@@ -1,4 +1,4 @@
-
+//123
 public class Owen
 {
 	public static char BEG_MSG = '#';
