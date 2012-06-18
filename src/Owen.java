@@ -1,4 +1,9 @@
-//123
+/*
+ *  ласс дл€ работы с ќвеном
+ * 
+ * 
+ * 
+ */
 public class Owen
 {
 	public static char BEG_MSG = '#';

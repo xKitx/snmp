@@ -1,8 +1,6 @@
 package Micran;
 
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
 
 import org.snmp4j.smi.OID;
 
@@ -29,10 +27,9 @@ public class Np2SNMP {
 		// sysContact RW
 		OID oid_sysContact = new OID(".1.3.6.1.2.1.1.4.0");
 		String sysContact = client.getAsString(oid_sysContact);
+		System.out.println("sysContact\t"+ sysContact);
 		
 		client.set_String(oid_sysContact, "sidorov");
-		
-		
 		System.out.println("sysContact\t" + client.getAsString(oid_sysContact));
 		
 		/*
